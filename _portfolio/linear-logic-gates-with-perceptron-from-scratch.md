@@ -1,17 +1,17 @@
 ---
-layout: post
-title: Draft Post - Linear Logic Gates with Perceptron from Scratch (WiP)
+layout: single
+title: Draft Project - Linear Logic Gates with Perceptron from Scratch (WiP)
 permalink: /blog/linear-logic-gates-with-perceptron-from-scratch/
 ---
 
-The goal of this project was to re-build linear logic gates (AND, OR) in Python using machine learning but without relying on any machine learning libraries. I’ve already built a linear logic gate classifier using the perceptron before - [link](#), but upon code review decided to rebuild it from scratch as the preparation for potentially extending it to non-linear gates (XOR, XNOR, NAND).
+The goal of this project was to re-build linear logic gates (AND, OR) in Python using machine learning but without relying on any machine learning libraries. I’ve already built a linear logic gate classifier using the perceptron before - [link](https://github.com/adobiss/ai-ml-portfolio/tree/main/Linear%20Perceptron), but upon code review decided to rebuild it from scratch as the preparation for potentially extending it to non-linear gates (XOR, XNOR, NAND).
 
 The purpose of this project was to refresh the mathematical operations and the logic behind the perceptron (simple, but fundamental linear binary classifier), how to implement it in Python and to build deeper intuition about basic artificial neural network components: neuron, decision boundary and activation function.
 
 **Language:** Python.  
 **Libraries used:** NumPy, matplotlib.  
 **Code built using:** version control with multiple branches via Git.  
-**Code hosted on:** [GitHub](#).  
+**Code hosted on:** [GitHub](https://github.com/adobiss/linear-ml/tree/main/linear-perceptrons).  
 **AI assistance used:** ChatGPT4.  
 
 **Approach:**  
