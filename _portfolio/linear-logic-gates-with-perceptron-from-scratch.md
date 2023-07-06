@@ -110,6 +110,7 @@ Additionally, even if Perceptron’s 2 activation function (unit step function) 
 update = self.lr * (y_[idx] - y_predicted) # Residual
 if update != 0:
     # proceed with weight update
+```
 
 On the other hand, Perceptron 1 used (-1, 1) labels while also utilising a ‘sign based’ error function, enabling a weight update with a neuron output of 0. Adopting a similar error function and labelling mechanism in Perceptron 2 could lead to complications:
 
@@ -121,6 +122,7 @@ In response, Perceptron 2 retained a slightly modified activation function: `ret
 ```python
 if linear_output == 0 and y_[idx] == 0:
     update = self.lr * (-1)
+```
 
 This modification mirrored Perceptron 1's decision boundary evolution in Perceptron 2, aligning their final decision boundaries and total training steps (tested using AND, OR gates).
 
@@ -141,3 +143,4 @@ The simplest solution seemed to add additional condition to the existing np.wher
 ```python
 return np.where(x < 0, 0, 
                        np.where(x == 0, 0.5, 1))
+```
