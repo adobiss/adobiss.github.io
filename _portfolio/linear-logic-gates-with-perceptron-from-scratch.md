@@ -10,15 +10,15 @@ permalink: /projects/linear-logic-gates-with-perceptron
 
 **Purpose:** To demonstrate the problem-solving and decision-making processes, as well as enhance the understanding of neural networks’ most basic components and their implementation in Python.
 
-**Previous Model (perceptron 1)
+**Previous Model (perceptron 1)**
 The model is based on the mathematical description of the perceptron from Artificial Neural Networks (ANNs) course. Built without Large Language Model (LLM) assistance.
 - [Code](url-to-code)
 
-**New Model (perceptron 2)
+**New Model (perceptron 2)**
 GPT-4 was used to generate bulk of the code to experiment with LLM assistance.
 - [Code](url-to-code)
 
-**Logic gates (AND, OR)
+**Logic gates (AND, OR)**
 
 A logic gate is a Boolean function performed on a set of binary inputs to produce a single binary output:
 
@@ -31,7 +31,7 @@ A logic gate is a Boolean function performed on a set of binary inputs to produc
 
 AND, OR logic gates can be modelled by plotting a single straight line (‘hyperplane’ or ‘decision boundary’) and classifying inputs lying on one side as AND, OR gate respectively.
 
-**Theoretical Principles Behind Perceptron
+**Theoretical Principles Behind Perceptron**
 Out of scope (see [Wiki](url-to-wiki)).
 
 # Perceptron 2
