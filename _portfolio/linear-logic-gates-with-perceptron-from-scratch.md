@@ -10,15 +10,15 @@ permalink: /projects/linear-logic-gates-with-perceptron
 
 **Purpose:** To demonstrate the problem-solving and decision-making processes, as well as enhance the understanding of neural networks’ most basic components and their implementation in Python.
 
-## Previous Model (perceptron 1)
+**Previous Model (perceptron 1)
 The model is based on the mathematical description of the perceptron from Artificial Neural Networks (ANNs) course. Built without Large Language Model (LLM) assistance.
 - [Code](url-to-code)
 
-## New Model (perceptron 2)
+**New Model (perceptron 2)
 GPT-4 was used to generate bulk of the code to experiment with LLM assistance.
 - [Code](url-to-code)
 
-## Logic gates (AND, OR)
+**Logic gates (AND, OR)
 
 A logic gate is a Boolean function performed on a set of binary inputs to produce a single binary output:
 
@@ -31,7 +31,7 @@ A logic gate is a Boolean function performed on a set of binary inputs to produc
 
 AND, OR logic gates can be modelled by plotting a single straight line (‘hyperplane’ or ‘decision boundary’) and classifying inputs lying on one side as AND, OR gate respectively.
 
-## Theoretical Principles Behind Perceptron
+**Theoretical Principles Behind Perceptron
 Out of scope (see [Wiki](url-to-wiki)).
 
 # Perceptron 2
@@ -54,7 +54,7 @@ The decision boundary plot surfaced that:
 - The positive class lied on the decision boundary (unlike with perceptron 1)
 - Adjusting the learning rate only affected the weight vector magnitude (and not the decision boundary)
 
-# Perceptron 2 & 1 Weight Difference Analysis
+## Perceptron 2 & 1 Weight Difference Analysis
 
 Potential factors contributing to weight differences between Perceptron 1 & 2 were assessed and ruled out:
 
@@ -143,4 +143,4 @@ The simplest solution seemed to add additional condition to the existing np.wher
 ```python
 return np.where(x < 0, 0, 
                        np.where(x == 0, 0.5, 1))
-```
+```	
