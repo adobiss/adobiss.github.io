@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Linear Logic Gates with Perceptron (Draft - WiP)
-permalink: /projects/linear-logic-gates-with-perceptron
+permalink: /projects/linear-logic-gates-with-perceptron-old
 ---
 
 # Introduction
