@@ -331,7 +331,7 @@ By modifying Perceptron 2's activation function, we gained insight into its role
 
 ## Next Steps
 
-* Implementing diverse input vectors (e.g. using real-life data) to study the impact of larger inputs and outliers.
+* Implementing diverse input vectors to study the impact of larger inputs and outliers.
 
 Perceptron 2 extensions could include:
 
