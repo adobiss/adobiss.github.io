@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Archie Dobiss. I'm an entry-level Data Scientist and a seasoned Data Wrangler with over 5 years of experience ingesting and mapping music royalty datasets comprising tens to hundreds of millions of rows.
+My name is Archie Dobiss. I'm an entry-level Data Scientist and a seasoned Data Wrangler with over 5 years of experience ingesting, mapping and processing music royalty datasets comprising tens to hundreds of millions of rows.
 
 I'm proficient in Python and SQL, passionate about AI/ML, and enjoy using algorithms to scale and automate business processes.
 
