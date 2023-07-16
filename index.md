@@ -14,5 +14,5 @@ Python, Scikit-Learn, SQL, Exploratory Data Analysis, Problem-Solving, Data Wran
 ### Featured Projects
 Showcasing problem-solving and decision-making skills while modelling linear logic gates with Perceptron algorithm from scratch using Python and NumPy. [More details.](/projects/linear-logic-gates-with-perceptron)
 
-[**LinkedIn**](https://www.linkedin.com/in/adobiss) | [**GitHub**](https://github.com/adobiss) | [**Email**](mailto:archie.dobiss@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/adobiss) | [GitHub](https://github.com/adobiss) | [Email](mailto:archie.dobiss@gmail.com)  
 Feel free to connect with me or drop me an email!
