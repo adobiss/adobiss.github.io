@@ -8,7 +8,7 @@ My name is Archie Dobiss. I'm an entry-level Data Scientist and a seasoned Data 
 
 I'm proficient in Python and SQL, passionate about AI/ML, and enjoy using algorithms to scale and automate business processes.
 
-After successfully completing a 16-week AI Bootcamp at the University of Huddersfield, I'm eager to apply my extensive data wrangling and data mapping background to gain further experience in the field of machine learning.
+After successfully completing a 16-week AI Bootcamp at the University of Huddersfield, I'm eager to apply my extensive background in data and algorithms to gain further experience in the field of machine learning.
 
 Dedicated to lifelong learning, I'm currently studying calculus and practicing relative pitch.
 
