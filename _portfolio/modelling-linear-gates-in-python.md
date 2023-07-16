@@ -216,7 +216,7 @@ Quick research established that not all decimal numbers can be represented exact
 Several solutions were examined, each with its drawbacks:
 
 * Python's decimal module: slower, increased code complexity
-* `Round()`: risk of data loss due to rounding
+* `round()`: risk of data loss due to rounding
 * High-precision data types (e.g. `numpy.longdouble`): slower, greater memory usage, possible portability and compatibility issues
 * Rearranging calculations: possible need for significant code refactoring
 * Value threshold/ tolerance introduction: useful for float comparisons but prone to error accumulation
