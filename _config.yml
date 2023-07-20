@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Archie Dobiss | Data Scientist & Machine Learning Enthusiast
+title: Archie Dobiss
 email: archie.dobiss@gmail.com
 description: >- 
   An entry-level Data Scientist and experienced Data Wrangler. Passionate about ML and leveraging algorithms for business process automation. Explore my portfolio and professional journey.
