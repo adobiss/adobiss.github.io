@@ -23,7 +23,7 @@ email: archie.dobiss@gmail.com
 description: >- 
   An entry-level Data Scientist and experienced Data Wrangler. Passionate about ML and leveraging algorithms for business process automation. Explore my portfolio and professional journey.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://adobiss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: adobiss
 
