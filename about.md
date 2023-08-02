@@ -16,4 +16,4 @@ I enjoy using my technical and problem-solving skills to tackle complex problems
 
 My goal is to build a career as a Machine Learning-focused Data Scientist. 
 
-Please check out my [AI/ML portfolio](/projects) and read [my CV](/cv) to learn more about my skills and professional journey.
+Please check out my [AI/ML portfolio](/projects) and read [my CV](/assets/archie-dobiss-cv.pdf) to learn more about my skills and professional journey.
