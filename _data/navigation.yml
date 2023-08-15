@@ -8,7 +8,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "CV"
-    url: /assets/archie-dobiss-cv.pdf
+    url: /cv/
   - title: "Docs"
     url: /docs/
   - title: "Contact"
