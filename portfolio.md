@@ -1,8 +1,6 @@
 ---
 layout: collection
-title: Portfolio
+title: Projects
 permalink: /projects/
 collection: portfolio
 ---
-
-A list of projects in Machine Learning.
