@@ -6,8 +6,6 @@ permalink: /projects/spam-filter
 
 **GitHub Repository:** [XGBoost Spam Filter](https://github.com/adobiss/ai-ml-portfolio/tree/main/XGBoost_spam_filter)
 
-# Summary
-
 ## Assignment Objective
 
 The task was to design a spam filter prioritising cybersecurity. The central challenge was to robustly minimise false negatives, recognising that missing genuine threats holds significant repercussions in a cybersecurity environment.
