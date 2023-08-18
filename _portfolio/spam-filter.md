@@ -24,7 +24,7 @@ A raw text dataset of labeled emails was chosen, echoing the real-world scenario
 
 The XGBoost algorithm emerged as the choice due to:
 
-- Its tree-based structure tailored for sparse datasets.
+- Its tree-based structure is efficient for sparse datasets.
 - The ability to integrate a weighted loss function and L1 regularization.
 - Its recognised speed and computational efficiency.
 
