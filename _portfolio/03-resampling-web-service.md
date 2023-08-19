@@ -4,7 +4,7 @@ title: "Audio Resampling Web Service: Diving into FastAPI and Asynchronous Progr
 permalink: /projects/resampling-web-service
 ---
 
-**GitHub Repository:** [Audio Resampling Web Service](https://github.com/adobiss/resample-web-service)
+**GitHub:** [Audio Resampling Web Service](https://github.com/adobiss/resample-web-service)
 
 ## Overview
 

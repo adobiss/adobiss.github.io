@@ -4,7 +4,7 @@ title: "AI Bootcamp Assignment - Secure Spam Filter"
 permalink: /projects/spam-filter
 ---
 
-**GitHub Repository:** [XGBoost Spam Filter](https://github.com/adobiss/ai-ml-portfolio/tree/main/XGBoost_spam_filter)
+**GitHub:** [XGBoost Spam Filter](https://github.com/adobiss/ai-ml-portfolio/tree/main/XGBoost_spam_filter)
 
 ## Assignment Objective
 

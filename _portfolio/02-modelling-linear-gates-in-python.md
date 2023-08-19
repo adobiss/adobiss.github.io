@@ -4,8 +4,7 @@ title: "Problem-Solving in Machine Learning: Modelling Linear Logic Gates in Pyt
 permalink: /projects/linear-logic-gates-with-perceptron
 ---
 
-**GitHub Repository:** [Previous Model: Perceptron 1](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v1)  
-**GitHub Repository:** [New Model: Perceptron 2](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v2)
+**GitHub:** [Previous Model: Perceptron 1](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v1); [New Model: Perceptron 2](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v2)
 
 * TOC
 {:toc}
