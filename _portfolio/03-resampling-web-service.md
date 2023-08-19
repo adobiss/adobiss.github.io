@@ -34,4 +34,4 @@ For setup, environment configurations and service operations, a comprehensive gu
 
 ## Conclusion
 
-Through targeted research, the right framework, and principles of asynchronicity, a functional solution materialised after a steep but successful learning journey. All details, including the entire codebase, can be explored on the [project's GitHub repository](https://github.com/adobiss/resample-web-service). [Feedback](/contact/) is always welcome and appreciated.
+Through targeted research, the application of the optimal framework, and the principles of asynchronicity, a functional solution materialised after a steep but successful learning journey. All details, including the entire codebase, can be explored on the [project's GitHub repository](https://github.com/adobiss/resample-web-service). [Feedback](/contact/) is always welcome and appreciated.
