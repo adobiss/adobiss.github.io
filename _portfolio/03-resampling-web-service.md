@@ -16,7 +16,7 @@ While an estimate of 4-5 hours was provided for the task, the actual project spa
 
 ## Framework Selection ##
 
-After thorough evaluation, FastAPI emerged as the preferred framework. Although Django is robust, it is typically more suited for expansive applications. Flask, being lightweight, lacked built-in asynchronous support at the time of building the service (as well as Django). FastAPI's simplicity, comprehensive documentation and built-in support for asynchronous operations made it the optimal choice to meet the webservice's requirements.
+After thorough evaluation, FastAPI emerged as the preferred framework. Although Django is robust, it is typically more suited for expansive applications. Flask, being lightweight, lacked built-in asynchronous support at the time of building the service (as well as Django). FastAPI's simplicity, comprehensive documentation and built-in support for asynchronous operations made it the optimal choice to meet the web service's requirements.
 
 ## Key Application Features
 
