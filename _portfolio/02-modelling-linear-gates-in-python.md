@@ -12,7 +12,7 @@ permalink: /projects/linear-logic-gates-with-perceptron
 
 ## Introduction
 
-### Project Description
+_**Project Description:**_
 
 **Audience**: Employers in the field of Data Science and Machine learning. The project assumes technical understanding of artificial neural network (ANN) basic principles.
 
@@ -20,7 +20,7 @@ permalink: /projects/linear-logic-gates-with-perceptron
 
 **Purpose**: To demonstrate the problem-solving and decision-making processes, as well as enhance basic ANN component understanding and their implementation in Python.
 
-### Logic Gates (AND, OR)
+_**Logic Gates (AND, OR):**_
 
 Logic gates perform Boolean functions on binary inputs to produce a single binary output (see *Table 1*).
 
@@ -38,7 +38,7 @@ AND, OR logic gates can each be modelled by plotting a single straight line ('hy
 ![AND, OR logic gate plot](/assets/images/and-or-logic-gate-plot.png)  
 <small>*Figure 1. AND, OR logic gate plot*<small>
 
-### Theoretical Principles Behind the Perceptron
+_**Theoretical Principles Behind the Perceptron:**_
 
 Perceptron is a binary linear classifier. It uses supervised learning to stochastically optimise weight vector w_t and bias b_t via update rule:
  
