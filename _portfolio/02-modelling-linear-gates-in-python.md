@@ -4,6 +4,9 @@ title: "Problem-Solving in Machine Learning: Modelling Linear Logic Gates in Pyt
 permalink: /projects/linear-logic-gates-with-perceptron
 ---
 
+**GitHub Repository:** [Previous Model: Perceptron 1](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v1)  
+**GitHub Repository:** [New Model: Perceptron 2](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v2)
+
 * TOC
 {:toc}
 
@@ -50,7 +53,7 @@ See [Wiki](https://en.wikipedia.org/wiki/Perceptron#Learning_algorithm) for more
 
 ### Previous Model: Perceptron 1
 
-#### Model Description
+_**Model Description:**_
 
 The model, which was coded manually without Large Language Model (LLM) assistance, is based on the mathematical description of the perceptron from an ANNs course on [Brilliant.org](https://brilliant.org/courses/artificial-neural-networks/).
 
@@ -60,13 +63,13 @@ The model development process description is out of the scope of this project.
 
 ### New Model: Perceptron 2
 
-#### Model Description
+_**Model Description:**_
 
 GPT-4 was used to generate the bulk of the code to experiment with LLM assistance.
 
 * [GitHub repository](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v2)
 
-#### Model Development
+_**Model Development:**_
 
 Initial steps (GPT-4):
 
