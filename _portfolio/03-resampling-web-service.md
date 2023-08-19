@@ -12,7 +12,7 @@ Developed as a coding test for a job interview, the primary objective of this RE
 
 ## The Journey
 
-While an estimate of 4-5 hours was provided for the task, the actual project spanned ten full days due to the steep learning curve, much of which was devoted to research.
+While an estimate of 4-5 hours was provided for the task, the actual project spanned ten days due to the steep learning curve, much of which was devoted to research.
 
 ## Framework Selection ##
 
