@@ -7,9 +7,9 @@ permalink: /projects/linear-logic-gates-with-perceptron
 * TOC
 {:toc}
 
-# Introduction
+## Introduction
 
-## Project Description
+### Project Description
 
 **Audience**: Employers in the field of Data Science and Machine learning. The project assumes technical understanding of artificial neural network (ANN) basic principles.
 
@@ -17,7 +17,7 @@ permalink: /projects/linear-logic-gates-with-perceptron
 
 **Purpose**: To demonstrate the problem-solving and decision-making processes, as well as enhance basic ANN component understanding and their implementation in Python.
 
-## Logic Gates (AND, OR)
+### Logic Gates (AND, OR)
 
 Logic gates perform Boolean functions on binary inputs to produce a single binary output (see *Table 1*).
 
@@ -35,7 +35,7 @@ AND, OR logic gates can each be modelled by plotting a single straight line ('hy
 ![AND, OR logic gate plot](/assets/images/and-or-logic-gate-plot.png)  
 <small>*Figure 1. AND, OR logic gate plot*<small>
 
-## Theoretical Principles Behind the Perceptron
+### Theoretical Principles Behind the Perceptron
 
 Perceptron is a binary linear classifier. It uses supervised learning to stochastically optimise weight vector w_t and bias b_t via update rule:
  
@@ -46,11 +46,11 @@ Where *r* - learning rate, *d_i* - the correct label, *y_i (t)* - the predicted 
 
 See [Wiki](https://en.wikipedia.org/wiki/Perceptron#Learning_algorithm) for more info.
 
-# Logic Gate Models
+## Logic Gate Models
 
-## Previous Model: Perceptron 1
+### Previous Model: Perceptron 1
 
-### Model Description
+#### Model Description
 
 The model, which was coded manually without Large Language Model (LLM) assistance, is based on the mathematical description of the perceptron from an ANNs course on [Brilliant.org](https://brilliant.org/courses/artificial-neural-networks/).
 
@@ -58,15 +58,15 @@ The model, which was coded manually without Large Language Model (LLM) assistanc
 
 The model development process description is out of the scope of this project.
 
-## New Model: Perceptron 2
+### New Model: Perceptron 2
 
-### Model Description
+#### Model Description
 
 GPT-4 was used to generate the bulk of the code to experiment with LLM assistance.
 
 * [GitHub repository](https://github.com/adobiss/numpy-ml/tree/main/linear-logic-gate-v2)
 
-### Model Development
+#### Model Development
 
 Initial steps (GPT-4):
 
@@ -85,9 +85,9 @@ Initial steps (GPT-4):
 10. In-code documentation (author + GPT-4)
 11. GitHub README (author + GPT-4)
 
-# Challenges Encountered with Perceptron 2
+## Challenges Encountered with Perceptron 2
 
-## Initial Model Analysis
+### Initial Model Analysis
 
 Decision boundary plot showed:
 
@@ -104,7 +104,7 @@ Decision boundary plot showed:
 ![Perceptron 2 final decision boundary (learning rate 0.5)](/assets/images/perceptron-2-decision-boundary-lr-0-5.png)  
 <small>*Figure 4. Perceptron 2 final decision boundary (learning rate 0.5)*<small>
 
-## Perceptron 2 & 1 Weight Difference Analysis
+### Perceptron 2 & 1 Weight Difference Analysis
 
 Potential factors contributing to weight differences between Perceptron 2 & 1 were assessed and ruled out:
 
@@ -148,7 +148,7 @@ The activation function would output '1' (or '0' if we changed `x>=0` to `x>0`) 
 ```python
 y_predicted = self.activation_func(linear_output)
 
-# Perceptron Update Rule
+## Perceptron Update Rule
 update = self.lr * (y_[idx] - y_predicted) # Residual (Error function)
 
 if update != 0: # Error function minimisation
@@ -186,7 +186,7 @@ This modification aligned Perceptron 2 & 1 decision boundaries and total trainin
 ![Perceptron 2 final decision boundary (learning rate 1)](/assets/images/perceptron-2-decision-boundary-fixed.png)  
 <small>*Figure 6. Perceptron 2 final decision boundary (learning rate 1)*<small>
 
-## Addressing Floating-Point Errors
+### Addressing Floating-Point Errors
 
 With learning rate set at '0.1', the experiment resulted in a different decision boundary (see *Figure 7*). Interestingly, data point [0 1] appeared to fall right on this boundary line.
 
@@ -238,7 +238,7 @@ y_predicted = self.activation_func(linear_output)
 ![Perceptron 2 final decision boundary (learning rate 1)](/assets/images/perceptron-2-decision-boundary-lr-0-1-fixed.png)  
 <small>*Figure 8. Perceptron 2 final decision boundary (learning rate 0.1)*<small>
 
-## Analysis and Optimisation of Learning Rate
+### Analysis and Optimisation of Learning Rate
 
 Without the floating-point error ending the training prematurely (see *Figure 8*), we arrived at the same final decision boundary for all learning rates with only the weight vector magnitude changing. Moreover, both weight vector and bias were effectively scaled by the learning rate at every step (see *Table 5*).
 
@@ -277,7 +277,7 @@ With weights and bias initialised as '1s' and using AND gate as an example the n
 ![Empirical learning rate selection](/assets/images/perceptron-2-empirical-learning-rate-selection.jpg)  
 <small>*Figure 9. Empirical learning rate selection*<small>
 
-## Updating and Improving the Activation Function
+### Updating and Improving the Activation Function
 
 Adding a condition to the error function to penalise negative class decision boundary points seemed like an inelegant solution. It introduced unnecessary complexity and prevented the calculation of residuals with a single mathematical expression:
 
@@ -305,9 +305,9 @@ return np.where(x < 0, 0,
                        np.where(x == 0, 0.5, 1))
 ```
 
-# Conclusion
+## Conclusion
 
-## Summary
+### Summary
 
 Perceptron's 2 decision boundary evolution was studied in-depth. Despite differences in implementation from Perceptron 1, identical outcomes were achieved, validating algorithm comprehension.
 
@@ -317,19 +317,19 @@ The mathematical description of how learning rate scaled the weights provided a 
 
 By modifying Perceptron 2's activation function, we gained insight into its role, relation to other components and activation function choice. This modification also reduced the model's complexity.
 
-## Lessons Learnt
+### Lessons Learnt
 
 * The usefulness of tracking weight updates at every step demonstrated that a more analytical approach must be employed going forward instead of spending too much time on an algorithm logic alone.
 * Identical error function behaviour was assumed for both models even though the labels differed. Training data format implications must be considered more carefully.
 * The initial conclusion about learning rate not affecting the decision boundary was incorrect (i.e. floating-point error). A broader (hyper)parameter value range must be tested next time.
 
-## Future Considerations
+### Future Considerations
 
 * Create `linear_output` class method that also applies floating-point error tolerance threshold (to be reused in both *fit* and *predict* Perceptron class methods).
 * Alternative solutions to floating-point errors, such as using the `round()` function or rearranging calculations can be explored.
 * Experiment with various weight initialisation values, their effect on learning rate and the resulting 'updates to converge' pattern.
 
-## Next Steps
+### Next Steps
 
 * Implementing diverse input vectors to study the impact of larger inputs and outliers.
 
@@ -339,7 +339,7 @@ Perceptron 2 extensions could include:
 * non-linear logic gate XOR (for multiple decision boundaries)
 * multiclass classification (to compare with binary classification)
 
-## LLM Assistance
+### LLM Assistance
 
 GPT-4 as an LLM can accelerate development, albeit with requirement for reverse-engineering.
 
