@@ -8,7 +8,7 @@ permalink: /projects/spam-filter
 
 ## Assignment Objective
 
-The task was to design a spam filter prioritising cybersecurity. The central challenge was to robustly minimise false negatives, recognising that missing genuine threats holds significant repercussions in a cybersecurity environment.
+The task was to design a spam filter prioritising cybersecurity. The central challenge was to robustly minimise false negatives (undetected spam), recognising that missing genuine threats holds significant repercussions in a cybersecurity environment.
 
 ## Approach
 
