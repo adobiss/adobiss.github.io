@@ -8,7 +8,7 @@ permalink: /projects/resampling-web-service
 
 ## Overview
 
-Developed as a coding test for a job interview, the primary objective of this RESTful Web Service was to accept audio files in WAV or MP3 formats, resample them to a 32kHz MP3 and return the transformed file. Despite unfamiliarity with web service frameworks like Django, Flask or FastAPI, and the concept of asynchronicity, this project became a significant problem-solving and learning experience and led to a successful hiring outcome.
+Developed as a coding test for a job interview, the primary objective of this RESTful Web Service was to accept multiple audio files in parallel in WAV or MP3 formats, resample them to a 32kHz MP3 and return the transformed file. Despite unfamiliarity with web service frameworks like Django, Flask or FastAPI, and the concept of asynchronicity (parallel requests), this project became a significant problem-solving and learning experience and led to a successful hiring outcome.
 
 ## The Journey
 
