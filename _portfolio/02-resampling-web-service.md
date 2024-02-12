@@ -16,7 +16,7 @@ While an estimate of 4-5 hours was provided for the task, the actual project spa
 
 ## Framework Selection ##
 
-After thorough evaluation, FastAPI emerged as the preferred framework. Although Django is robust, it is typically more suited for expansive applications. Flask, being lightweight, lacked built-in asynchronous support at the time of building the service (as well as Django). FastAPI's simplicity, comprehensive documentation and built-in support for asynchronous operations made it the optimal choice to meet the web service's requirements.
+After thorough evaluation, FastAPI emerged as the preferred framework. Although Django is robust, it is typically more suited for expansive applications. Flask, being lightweight, lacked built-in asynchronous support at the time of building the service (as well as Django). FastAPI's simplicity, comprehensive documentation and flexible support for asynchronous operations made it the optimal choice to meet the web service's requirements.
 
 ## Key Application Features
 
@@ -28,9 +28,9 @@ For setup, environment configurations and service operations, a comprehensive gu
 
 ## Lessons Captured
 
-1. **Concurrency and Parallelism**: Concurrency is for I/O operations, parallelism is for CPU/ memory bound operations.
-2. **Strategic Framework Selection**: Choosing the right tool can significantly influence a project's trajectory.
-3. **Importance of Targeted Documentation**: FastAPI's user-friendly documentation proved instrumental in implementing the web service and discerning between concurrency, which allows tasks to overlap, and parallelism, the simultaneous execution of tasks.
+1. **Concurrency and Parallelism**: Concurrency allows tasks to overlap and parallelism is the simultaneous execution of tasks.
+2. **Strategic Framework Selection**: Choosing the right tool from the start can significantly influence a project's trajectory.
+3. **Importance of Targeted Documentation**: FastAPI's user-friendly documentation proved instrumental in implementing the web service and discerning between concurrency and parallelism.
 4. **Audio File & Metadata Management**: Gained hands-on experience in audio manipulation using Python libraries, setting a foundation for future audio-centric projects.
 
 ## Conclusion
