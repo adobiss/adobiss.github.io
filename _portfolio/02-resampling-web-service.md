@@ -8,7 +8,7 @@ permalink: /projects/resampling-web-service
 
 ## Overview
 
-Developed as a coding test for a job interview, the primary objective of this RESTful Web Service was to accept multiple audio files in parallel in WAV or MP3 formats, resample them to a 32kHz MP3 and return the transformed file. Despite unfamiliarity with web service frameworks like Django, Flask or FastAPI, and the concept of asynchronicity (parallel requests), this project became a significant problem-solving and learning experience and led to a successful hiring outcome.
+Developed as a coding test for a job interview, the primary objective of this RESTful Web Service was to accept multiple audio files in parallel in WAV or MP3 formats, resample them to a 32kHz MP3 and return the transformed file. Despite unfamiliarity with web service frameworks like Django, Flask or FastAPI, and the concepts of concurrency and parallelism, this project became a significant problem-solving and learning experience and led to a successful hiring outcome.
 
 ## The Journey
 
@@ -28,10 +28,11 @@ For setup, environment configurations and service operations, a comprehensive gu
 
 ## Lessons Captured
 
-1. **Strategic Framework Selection**: Choosing the right tool can significantly influence a project's trajectory.
-2. **Importance of Targeted Documentation**: FastAPI's user-friendly documentation proved instrumental in implementing the web service and discerning between concurrency, which allows tasks to overlap, and parallelism, the simultaneous execution of tasks.
-3. **Audio File & Metadata Management**: Gained hands-on experience in audio manipulation using Python libraries, setting a foundation for future audio-centric projects.
+1. **Concurrency and Parallelism**: Concurrency is for I/O operations, parallelism is for CPU/ memory bound operations.
+2. **Strategic Framework Selection**: Choosing the right tool can significantly influence a project's trajectory.
+3. **Importance of Targeted Documentation**: FastAPI's user-friendly documentation proved instrumental in implementing the web service and discerning between concurrency, which allows tasks to overlap, and parallelism, the simultaneous execution of tasks.
+4. **Audio File & Metadata Management**: Gained hands-on experience in audio manipulation using Python libraries, setting a foundation for future audio-centric projects.
 
 ## Conclusion
 
-Through targeted research, the application of the optimal framework, and the principles of asynchronicity, a functional solution materialised after a steep but successful learning journey. All details, including the entire codebase, can be explored on the [project's GitHub repository](https://github.com/adobiss/resample-web-service). [Feedback](/contact/) is always welcome and appreciated.
+Through targeted research, the application of the optimal framework, and the principles of concurrency and parallelism, a functional solution materialised after a steep but successful learning journey and was implemented utilising FastAPI's external threadpool functionality. All details, including the entire codebase, can be explored on the [project's GitHub repository](https://github.com/adobiss/resample-web-service). [Feedback](/contact/) is always welcome and appreciated.
