@@ -12,4 +12,4 @@ The 16-week intensive AI Bootcamp at the University of Huddersfield helped me ex
 
 With a proven track record of innovatively solving business problems using data, I'm keen to leverage these skills in roles focused on data preparation for AI/ ML applications.
 
-Please check out my [AI/ML portfolio](/projects) and read [my CV](/assets/archie-dobiss-cv.pdf) to learn more about my skills and professional journey.
+Please check out my [AI/ ML portfolio](/projects) and read [my CV](/assets/archie-dobiss-cv.pdf) to learn more about my skills and professional journey.
