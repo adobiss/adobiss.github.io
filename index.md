@@ -6,7 +6,7 @@ permalink: /
 
 Welcome to my AI/ Machine Learning portfolio website!
 
-Hi, I'm Archie Dobiss. Utilising algorithms and data analysis to scale and automate business processes. [Read more.](/about)
+Hi, I'm a Data Scientist with a strong background in data wrangling, bringing over seven years of experience in managing and processing large-scale music royalty datasets, comprising tens to hundreds of millions of rows. [Read more.](/about)
 
 ### Skills/Tools
 Python, Scikit-Learn, SQL, Exploratory Data Analysis, Problem-Solving, Data Wrangling, Web Services. [Download my CV.](/assets/archie-dobiss-cv.pdf)
