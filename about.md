@@ -6,7 +6,7 @@ permalink: /about/
 
 My name is Archie Dobiss. I'm a Data Scientist with a strong background in data wrangling, bringing over seven years of experience in managing and processing large-scale music royalty datasets, comprising tens to hundreds of millions of rows. 
 
-Skilled in Python and SQL, I utilise Pandas for comprehensive data manipulation and perform lightweight statistical analysis to prepare training data for AI and machine learning aapplications.
+Skilled in Python and SQL, I utilise Pandas, Matplotlib and Seaborn for comprehensive data manipulation and exploration to prepare training data for AI and machine learning applications.
 
 The 16-week intensive AI Bootcamp at the University of Huddersfield helped me expand my foundational knowledge in AI and machine learning.
 
