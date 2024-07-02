@@ -74,5 +74,3 @@ The prototype included a basic, clean UI with a focus on simplicity and function
 - Fast API server layer: utilising Supabase client but structured in a way that facilitates switching to Object Relational Mapper (ORM) libraries such as SQLAlchemy for database agnostic development.
 - Client-side input validation to help prevent a wide range of attacks, including SQL injection and cross-site scripting (XSS).
 - Comprehensive client-side logging.
-
-![Create new client page](/assets/images/db-api-create-new-page.jpg)
