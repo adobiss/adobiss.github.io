@@ -24,6 +24,9 @@ Challenges arose with local database setup not being easily reproducible, leadin
 
 The database schema included three linked tables (digital dailies, projects and clients) and was designed to include essential features like restrictive foreign key relationships and mandatory fields, ensuring data integrity and preventing data loss.
 
+![Database schema](/assets/images/db-api-schema.png)
+<small>Database schema.<small>
+
 ### API Integration
 
 A significant scope adjustment was made when it was determined that a web server was unnecessary for CRUD operations. Supabase's JavaScript client library enabled direct UI connections, simplifying the architecture and allowing the front-end to be hosted on Netlify for free.
