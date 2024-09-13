@@ -5,11 +5,12 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  #- title: "Blog"
+  #  url: /blog/
   - title: "CV"
-    url: /cv/
-  - title: "Docs"
-    url: /docs/
+    url: "/assets/archie-dobiss-cv.pdf"
+  #  url: /cv/
+  #- title: "Docs"
+  #  url: /docs/
   - title: "Contact"
     url: /contact/
