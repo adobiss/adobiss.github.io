@@ -57,7 +57,6 @@ Implemented "Flexibility Strategies" from the project's inception to ensure scal
 - Framework-agnostic practices using standard data processing libraries
 - Abstract data access layer for encapsulated data handling
 - Configuration management for easy parameter tuning
-- Basic data version control for maintaining data integrity
 
 ## Learnings and Insights
 
@@ -71,7 +70,7 @@ Implemented "Flexibility Strategies" from the project's inception to ensure scal
 - Analyse false match similarity score distribution to understand unexpected central tendency around 60%
 - Conduct more rigorous training, evaluation and testing with proper stratification to further improve accuracy
 - Develop and deploy a web application prototype to demonstrate real-world applicability of the solution
-- Implement secondary applications of the model, such as automated duplicate entry detection in large music catalogs
+- Implement secondary applications of the model, such as automated duplicate entry detection in large music catalogues
 
 This project showcases my ability to tackle complex, real-world data challenges, implement and optimise state-of-the-art machine learning models and design scalable, forward-thinking solutions. It demonstrates my proficiency in data science, machine learning and software engineering principles, making me well-equipped to contribute to challenging projects in AI and data-driven industries.
 
