@@ -8,7 +8,7 @@ permalink: /projects/semantic-search
 
 ## Project Overview
 
-Developed a cutting-edge semantic matching system for music metadata, addressing the challenge of identifying and linking related musical compositions across varying formats and spellings. This project demonstrates proficiency in data science, machine learning and software engineering principles.
+Developed a cutting-edge semantic matching system for music metadata, addressing the challenge of identifying and linking identical musical compositions across varying formats and spellings. This project demonstrates proficiency in data science, machine learning and software engineering principles.
 
 ## Key Achievements
 
