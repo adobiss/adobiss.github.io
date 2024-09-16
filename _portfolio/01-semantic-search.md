@@ -4,7 +4,7 @@ title: "Advanced Music Metadata Matching: Leveraging NLP for Semantic Search in 
 permalink: /projects/semantic-search
 ---
 
-**GitHub:** *pending*
+**GitHub:** [Advanced Music Metadata Matching](https://github.com/adobiss/semantic-search)
 
 ## Project Overview
 
